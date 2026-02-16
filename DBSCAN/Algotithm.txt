@@ -1,0 +1,20 @@
+Algorithm Steps:
+
+1. Randomly select n sample
+2. Build tree using Random Split(Gini Index,Entropy)
+3. Compute path length for each DataPoint
+
+II.After building all trees
+1.compute avg path length
+2.Normalize using C(n) ==>Avg path of tree (means no of edges)
+3.Compute anomaly score
+4.Classify using the continution threshold
+
+
+If n is small:
+  compute directly
+if n is large:
+  use approximatiom
+
+H(n)==>log(n)+0.577
+
