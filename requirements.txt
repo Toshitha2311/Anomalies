@@ -1,6 +1,7 @@
-streamlit 
-pandas 
+streamlit==1.31.1
+pandas
 numpy
-matplotlib.pyplot
-plotly.graph_objects
-os
+scikit-learn
+matplotlib
+plotly
+rich>=13.7.0
