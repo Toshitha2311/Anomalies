@@ -4,3 +4,7 @@ numpy==1.24.3
 matplotlib==3.8.2
 plotly==5.18.0
 scikit-learn==1.3.2
+
+
+
+deployment link: https://toshitha2311-anomalies-app-yzrhob.streamlit.app/
